@@ -1,0 +1,29 @@
+.hero
+{
+	position: relative;
+	width: 100%;
+	border-top: 1px solid $blue;
+	border-bottom: 1px solid $blue;
+	background: url(https://www.caredash.com/media/caredash/site/doctor-on-ipad-background-min.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.hero-overlay
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.75);
+	z-index: 1;
+}
+
+@media only screen and (max-width: 767px)
+{
+	.hero
+	{
+		background-image: none;
+	}
+}

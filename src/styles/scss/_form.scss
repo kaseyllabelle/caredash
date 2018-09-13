@@ -1,0 +1,68 @@
+.form-container
+{
+	z-index: 2;
+}
+
+.form-fieldset
+{
+	margin: 0;
+	border: none;
+	padding: 0;
+	width: 100%;
+}
+
+.form-label,
+.form-input
+{
+	width: 100%;
+	outline: none;
+	font-size: 16px;
+}
+
+.form-label
+{
+	margin: 10px 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+.form-label:first-of-type
+{
+	margin-top: 0;
+}
+
+.form-input
+{
+	border: 1px solid $grey700;
+	border-radius: 3px;
+	padding: 5px;
+	background: transparent;
+}
+
+.form-input:focus
+{
+	border: 1px solid $green;
+	outline: none;
+}
+
+.form-input-container
+{
+	margin: 0 0 10px;
+}
+
+.form-input-container:last-of-type
+{
+	margin-bottom: 0;
+}
+
+.button.submit
+{
+	display: block;
+	width: auto;
+	margin: 30px auto 15px;
+}
+
+.log-in
+{
+	text-align: center;
+}

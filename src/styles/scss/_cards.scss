@@ -1,0 +1,40 @@
+.card-icon,
+.card-headline
+{
+	text-align: center;
+	color: $blue;
+}
+
+.card-body
+{
+	margin: 0 0 10px;
+}
+
+.card-icon
+{
+	width: 100%;
+}
+
+.card-body,
+.card-cta
+{
+	font-size: 14px;
+}
+
+@media only screen and (max-width: 767px)
+{
+	.card
+	{
+		margin-bottom: 50px;
+	}
+
+	.card:last-of-type
+	{
+		margin-bottom: 0;
+	}
+
+	.card-cta
+	{
+		text-align: center;
+	}
+}

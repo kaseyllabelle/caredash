@@ -1,0 +1,101 @@
+@import "_globals.scss";
+@import "_grid.scss";
+@import "_header.scss";
+@import "_nav.scss";
+@import "_hero.scss";
+@import "_cards.scss";
+@import "_form.scss";
+@import "_footer.scss";
+
+*,
+*:before,
+*:after
+{
+	box-sizing: border-box;
+}
+
+*::selection
+{
+	background: $grey100;
+}
+
+body
+{
+	margin: 0;
+	font-family: $font;
+	color: $grey800;
+}
+
+.header,
+.form-container,
+.main,
+.footer
+{
+	padding: 30px;
+}
+
+.heading
+{
+	margin: 0 0 20px;
+	text-align: center;
+}
+
+.sub-heading
+{
+	margin: 0 0 10px;
+}
+
+a
+{
+	color: $green;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: $greenHover;
+	text-decoration: underline;
+}
+
+a.button,
+button.button
+{
+	outline: none;
+	border: none;
+	border-radius: 3px;
+	padding: 10px;
+	font-size: 1em;
+	background-color: $green;
+	color: $white;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+}
+
+a.button:hover,
+button.button:hover
+{
+	background-color: $greenHover;
+	text-decoration: none;
+}
+
+ul
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.material-icons.md-72 
+{ 
+	font-size: 72px; 
+}
+
+@media only screen and (max-width: 767px)
+{
+	.heading
+	{
+		margin: 0 0 15px;
+	}
+}
